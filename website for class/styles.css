@@ -2,3 +2,13 @@
     color: #ED971E;
     background-color: #141118;
 }
+
+a {
+    color: #ED971E;
+}
+
+body {
+    background-image: url(Images/White\ Polygonal\ Background\ 01_preview1\ .JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
