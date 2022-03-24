@@ -1,14 +1,53 @@
-.infoslide {
-    color: #ED971E;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 4px 5px;
+    grid-template-areas:
+        "Nav Nav Nav Nav"
+        "info add-ons ICON ICON"
+        "info add-ons ICON ICON"
+        "data data data data"
+        "Footer Footer Footer Footer";
+    width: 100vw;
+}
+
+.Nav {
+    grid-area: Nav;
     background-color: #141118;
 }
 
-a {
-    color: #ED971E;
+.ICON {
+    grid-area: ICON;
+}
+
+.Footer {
+    grid-area: Footer;
+    background-color: #141118;
+}
+
+.info {
+    grid-area: info;
+}
+
+.add-ons {
+    grid-area: add-ons;
+}
+
+.data {
+    grid-area: data;
 }
 
 body {
-    background-image: url(Images/White\ Polygonal\ Background\ 01_preview1\ .JPG);
+    background-image: url(Images/d50354d8-2bab-4a26-afbb-f53bbe24528d.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imageholder {
+    background-image: url(website-for-class\Images\overwatch-game-art-3d-1920x1200.jpg);
+    display: block;
+    width: auto;
+    height: 50px;
 }
