@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,800;1,700&display=swap');
+
 .block-blue {
     background-color: #1F2837;
 }
-
-a {
-    color: #FFA10D;
-}
+ .nav-style{
+     color:#FFA10D;
+     padding-left: 4rem;
+     font-weight: bold;
+     font-size: large;
+     text-decoration: none;
+ }
+ .greeting{
+     text-align: center;
+     padding: 2rem;
+     color: #FFA10D;
+     background-image:url(/Images/White\ Polygonal\ Background\ 01_preview1\ .JPG)
+ }
+ .pargraph{
+     color:#FFA10D;
+     background-color:#1F2837;
+     padding: 1rem;
+     font-size: 20px;
+ }
+ .card-aling{
+     margin: 10px;
+ }
